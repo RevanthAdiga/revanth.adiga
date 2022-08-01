@@ -1,0 +1,63 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    height: 160vh
+}
+
+/* Navbar */
+#navbar {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar ul {
+    list-style: none;
+    float: left;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.img {
+    border-radius: 50%;
+    display: inline;
+    float: right;
+    height: 80px
+}
+
+.logo {
+    line-height: 20px;
+    display: inline;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.signup {
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.username {
+    padding: 40px;
+}

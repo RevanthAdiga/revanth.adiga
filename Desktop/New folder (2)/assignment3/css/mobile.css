@@ -1,0 +1,157 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    height: 260vh;
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container {
+    margin: auto;
+    max-width: 1500px;
+    overflow: auto;
+    padding: 0 20px;
+    opacity: 0.8;
+
+}
+
+
+
+/* Navbar */
+#navbar {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+.img {
+    border-radius: 50%;
+    display: inline;
+    float: right;
+    height: 80px
+}
+
+.logo {
+    line-height: 50px;
+    display: inline;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/* dashboard */
+.dashboard-icon {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.dashboard-icon ul li {
+    float: left
+}
+
+.dashboard-icon ul li a {
+    color: #333;
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dashboard-icon ul li img {
+    height: 55px;
+}
+
+.dashboard-icon ul {
+    list-style: none
+}
+
+/* flex-container */
+.flex-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.item {
+    background: gray;
+    border: #ccc solid 2px;
+    margin: 10px;
+    padding-top: 40px;
+    padding-left: 30px;
+    flex-grow: 1;
+    border-radius: 10px;
+    width: 73%;
+    height: 300px
+}
+
+.item-1 {
+    background-image: url(../images/4853433.jpg);
+    background-size: contain;
+}
+
+.item-2 {
+    background: url(../images/6068294.jpg);
+    background-size: contain;
+}
+
+.item-3 {
+    background: url(../images/v748-toon-103.jpg);
+    background-size: contain;
+}
+
+h1 {
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+/* Table */
+.table_container {
+    background-color: #ffe7bf;
+    width: 98%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.table_container table {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.table_container table td {
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.table_container table th {
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+}

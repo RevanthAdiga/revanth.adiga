@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <!-- <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" /> -->
+  <link rel="stylesheet" href="../static/style.css" />
+  <title>Registration Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="forms">
+      <!-- Registration Form -->
+      <div class="form signup">
+        <span class="title">Registration</span>
+        <form class="register_form" action="">
+          <div class="input-field">
+            <input type="text" id="first_name" placeholder="Enter your first name" required />
+            <i class="uil uil-user icon"></i>
+          </div>
+          <div class="input-field">
+            <input type="text" id="last_name" placeholder="Enter your last name" required />
+            <i class="uil uil-user icon"></i>
+          </div>
+          <div class="input-field">
+            <input type="text" id="username" placeholder="Enter your username" required />
+            <i class="uil uil-user icon"></i>
+          </div>
+          <div class="input-field">
+            <input type="password" class="password" id="register_pass1" placeholder="Create your password" required />
+            <i class="uil uil-lock icon"></i>
+          </div>
+          <div class="input-field">
+            <input type="password" class="password" id="register_pass2" placeholder="Re enter your password" required />
+            <i class="uil uil-eye-slash showhidepw"></i>
+            <i class="uil uil-lock icon"></i>
+          </div>
+          <div class="input-field button">
+            <input type="submit" value="register">
+          </div>
+        </form>
+        <div class="login-signup">
+          <a href="login.html" class="text login-link">Login now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/static/register.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+
+</html>
